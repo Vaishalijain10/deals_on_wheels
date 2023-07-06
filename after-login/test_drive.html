@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./asets/test_drive.css">
+</head>
+<body>
+    
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+<button type="button" class="main-btn-rect popup-btn" data-popup="popup-reg">Book a test drive</button>
+
+<div id="popup-reg" class="popup">
+  <div class="popup-content">
+    <div class="event-header">
+      <h6>Don't be shy, say hi!</h6>
+    </div>
+      <form id="send" class="send-form">
+        <div class="form-group">
+          <input type="text" placeholder="Enter name..." id="name" name="name" required="required">
+          <label for="name">
+            <i class="fa fa-user"></i>
+          </label>
+        </div>
+        <div class="form-group">
+          <input type="tel" placeholder="Enter phone..." id="phone" name="phone" required="required">
+          <label for="phone">
+            <i class="fa fa-phone"></i>
+          </label>
+        </div>
+        <div class="form-group">
+          <input type="email" placeholder="Enter mail..." id="mail" name="mail" required="required">
+          <label for="mail">
+            <i class="fa fa-envelope"></i>
+          </label>
+        </div>
+        <div class="form-group">
+          <textarea placeholder="Enter message..." name="text" id="text"></textarea>
+          <label for="text" class="txt">
+            <i class="fa fa-commenting"></i>
+          </label>
+        </div>
+        <button type="submit" class="main-btn-rect" name="text" value="Send">
+          <i class="fa fa-paper-plane"></i>Send</button>
+      </form>
+    <span class="fade-out main-btn-circle">╳</span>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+<script>
+    $(document).ready(function(){
+  $('.popup-btn').click(function(){ 
+    var popupBlock = $('#'+$(this).data('popup'));
+    popupBlock.addClass('active')
+      .find('.fade-out').click(function(){
+        popupBlock.css('opacity','0').find('.popup-content').css('margin-top','350px');        
+        setTimeout(function(){
+          $('.popup').removeClass('active');
+          popupBlock.css('opacity','').find('.popup-content').css('margin-top','');
+        }, 600);
+      });
+ });
+});
+</script>
+</body>
+</html>

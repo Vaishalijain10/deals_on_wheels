@@ -1,0 +1,333 @@
+
+/* navbar start */
+
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: .5rem;
+    background: var(--light-yellow);
+    color: black;
+    font-weight: 500 ;
+    font-size: 1.7rem;
+    cursor: pointer;
+    padding: .8rem 3rem;
+}
+
+.btn:hover{              /*HOVER EFFECT*/
+background: yellow;
+}
+
+.header{
+    /* position: fixed;
+    /* top: -3%; left:0;right: 0; bottom: 86% !important;  */
+    /* z-index:999; */
+    /* background: white; */
+    display: flex;
+    flex-direction: row;
+    gap: 25.65%;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    /* padding: 1rem 9%; */
+    /* apply shadow to all navbar */
+    box-shadow: 0px 3px 10px gray;  
+
+}
+
+ .logo{
+    text-decoration: none;
+font-size: 1.7rem;
+color: black;
+font-weight: bolder;
+margin-left: 7%;
+margin-top: .75%;
+}
+
+.header span{
+    text-decoration: none; 
+    color: #f9d806;
+}
+.header .span1{
+    text-decoration: none;
+    color:red;
+}
+
+ .navbar a{
+    text-decoration: none;
+
+    font-size: 1.2rem;
+    margin: 0 1rem;
+    color: black;
+
+}
+/* not wroking most probabally */
+
+ .navbar a:hover{ 
+    /* background: yellow; */
+    color:var(--yellow);
+}
+
+.btn{
+    margin-top: 0% ;
+    font-size: 20.3px;
+}
+
+ #login-btn i{
+    font-size: 1.5rem !important;
+    color: var(--light-color);
+    cursor: pointer;
+    display: none;
+}
+    #menu-btn{
+        font-size: 1.5rem;
+        color:  var(--light-color);
+        cursor: pointer;
+        display: none;
+    }
+
+/*DROP DOWN*/
+
+.dropbtn {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    font-size: 1.2rem;
+    border: none;
+    margin-right: 20% !important;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;   
+    margin-right: 2rem;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: whitesmoke;
+}
+
+
+/* navbar end */
+
+
+
+/* audi car description  start*/
+.audi-description-heading {
+    font-size: 2rem;
+    font-weight: 600;
+    font-style: oblique;
+    margin-top: 3.5%;
+    margin-left: 8%;
+    margin-top: 3%;
+}
+
+/* audi car description  end*/
+
+/* audi description paragraph end */
+.audi-description-paragraph {
+    margin: 0% 8% 0% 8%;
+}
+
+.audi-description-paragraph-1 {
+    font-size: 20px;
+    line-height: 1.51;
+}
+
+.audi-description-paragraph-2 {
+    font-size: 20px;
+    line-height: 1.51;
+}
+
+/* audi description paragraph end*/
+
+/* audi car price start */
+.audi-car-price {
+    margin: 0% 8% 0% 8%;
+}
+
+.audi-car-price-heading {
+    font-size: 2rem;
+    font-weight: 600;
+    font-style: oblique;
+    margin-top: 4%;
+}
+
+.audi-car-price-paragraph {
+    font-size: 20px;
+    line-height: 1.51;
+}
+
+/* audi car price end */
+
+/* audi car price table start */
+.audi-car-price-table {
+    margin: 0% 8% 0% 8%;
+}
+
+/* audi car price table end */
+
+/* audi car model heading start */
+.audi-car-model {
+    margin: 0% 8% 0% 8%;
+
+}
+
+.audi-car-model-heading {
+    font-size: 2rem;
+    font-weight: 600;
+    font-style: oblique;
+    margin-bottom: 2%;
+}
+
+/* audi car model heading start */
+
+/* audi car model table ROW start */
+
+
+/* audi car model table row 1 start */
+
+.audi-car-model-1 {
+    display: flex;
+    flex-direction: column;
+    margin: 0% 9% 0% 9%;
+}
+
+.audi-car-model-row-1 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+}
+
+.audi-car-model-row-1:HOVER {
+    background-color: lightgray;
+}
+
+.audi-car-model-side-img-1 {
+    margin-left: 17%;
+}
+
+.audi-car-model-side-img-1:hover {
+    opacity: 0.3;
+}
+
+.audi-car-model-text {
+    margin: 57px 0px 0px 200px;
+    display: flex;
+    flex-direction: row;
+    gap: 190px;
+}
+.audi-car-model-details{
+    margin-top: 26px;
+    background-color:#ecb613;
+    color: white;
+    padding: 13px 16px 13px 16px;
+    border: none;
+    font-size: 16px;
+    border-radius: 17px;
+}
+.audi-car-model-details:hover{
+    background-color: #eaca6c; 
+}
+
+
+/* audi car MODEL table row 1 end */
+
+/* audi car MODEL table row 2 start */
+.audi-car-model-row-2{
+    margin-top: 2.5%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+}
+.audi-car-model-row-2:hover{
+    background-color: lightgray;
+}
+
+
+/* audi car MODEL table row 2 end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+
+.footer-d{
+    margin-top: 50px;
+}
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: .5rem;
+    background: var(--light-yellow);
+    color: black;
+    font-weight: 500 ;
+    font-size: 1.7rem;
+    cursor: pointer;
+    
+    padding: .8rem 1rem;
+}
+
+
+.icons{
+    margin-left: 45%;
+}
+.copyright{
+    /* margin-left: 37%; */
+    text-align: center;
+}
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: .5rem;
+    background: var(--light-yellow);
+    color: black;
+    font-weight: 500 ;
+    font-size: 1.7rem;
+    cursor: pointer;
+    
+    padding: .8rem 1rem;
+}
+.p-3{
+    padding: 1rem;
+}
+.mb-4{
+    margin-bottom: 1%;
+    margin-left: -1%;
+}

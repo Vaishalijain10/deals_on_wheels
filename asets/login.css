@@ -1,0 +1,100 @@
+
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
+
+
+ /* navbar */
+
+ #navbar {
+    width: 100%;
+    margin-top: 3%;
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: -39px;
+    margin-right: 17%;
+}
+
+#navbar li {
+    list-style: none;
+    padding: 3px 11px;
+    margin: 6px 10px;
+    font-size: 20px;
+}
+
+#navbar li a {
+    padding: 2px;
+    margin: 2px;
+    color: black;
+    text-decoration: none;
+}
+
+#navbar li a:hover {
+    color: yellow;
+    /* color: rgb(160, 226, 29); */
+    transition: all 0.37s ease-in;
+}
+
+.nav-img img {
+    height: 44px;
+    /* filter: invert(); */
+    margin: 2px;
+}
+
+/* deals on wheels name start*/
+
+.first {
+    color: #f9d806;
+    float: left;
+    margin-right: 10px;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+.middle {
+    color: red;
+    float: left;
+    margin-right: 10px;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+.last {
+    color: black;
+    float: left;
+    font-weight: bolder;
+    font-size: 2rem;
+
+}
+
+/* deals on wheels name start*/
+
+.heading {
+    margin-top: 15px;
+    margin-left: 159px;
+    font-size: 21px;
+}
+
+/* navbar end */
+
+/* registration img */
+.col-md-9 col-lg-6 col-xl-5{
+margin-top: 10%;
+}

@@ -1,0 +1,338 @@
+ /* navbar */
+
+ .btn{
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: .5rem;
+    background: var(--light-yellow);
+    color: black;
+    font-weight: 500 ;
+    font-size: 1.7rem;
+    cursor: pointer;
+    padding: .8rem 3rem;
+}
+
+.btn:hover{              /*HOVER EFFECT*/
+background: yellow;
+}
+
+.header{
+    margin-top: -.5%;
+    margin-left: -2%;
+    margin-right: -2%;
+    padding-top: .75%;
+    padding-bottom: 1%;
+    display: flex;
+    flex-direction: row;
+    gap: 25.65%;
+    box-shadow: 0px 3px 10px gray;  
+
+}
+
+ .logo{
+ text-decoration: none;
+font-size: 1.7rem;
+color: black;
+font-weight: bolder !important;
+margin-left: 7%;
+margin-top: .75%;
+
+}
+
+.header span{
+    text-decoration: none; 
+    color: #f9d806;
+}
+.header .span1{
+    text-decoration: none;
+    color:red;
+}
+
+ .navbar a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin: 0 1rem;
+    color: black;
+
+}
+/* not wroking most probabally */
+
+ .navbar a:hover{ 
+    /* background: yellow; */
+    color:var(--yellow);
+}
+
+.btn{
+    margin-top: 0% ;
+    font-size: 20.3px;
+}
+
+ #login-btn i{
+    font-size: 1.5rem !important;
+    color: var(--light-color);
+    cursor: pointer;
+    display: none;
+}
+    #menu-btn{
+        font-size: 1.5rem;
+        color:  var(--light-color);
+        cursor: pointer;
+        display: none;
+    }
+
+/*DROP DOWN*/
+
+.dropbtn {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    font-size: 1.2rem;
+    border: none;
+    margin-right: 20% !important;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;   
+    margin-right: 2rem;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: whitesmoke;
+}
+
+
+/* navbar end */
+
+
+/* content start */
+
+.heading-1{
+    color: red;
+    font-size: 2.5rem;
+    margin-top:5%;
+    margin-left: 80px;
+}
+.heading-2{
+    color: red;
+    font-size: 1.25rem;
+    margin-left: 80px;
+    margin-top: -1.5%;
+}
+.heading-3{
+    color: gray;
+    font-size: 1.5rem;
+    margin-left: 80px;
+    margin-top: -0.001%
+}
+.loan{
+    margin-top: 5%;
+}
+
+.loan-1{
+    display: flex ;
+    flex-direction: row ;
+    gap: 10%;
+}
+.loan-button{
+ background-color:#609966;
+ color: white;
+ padding: 20px 40px 20px 40px;
+ border: none;
+ font-size: 18px;
+ border-radius: 80px;
+ margin-left: 12%;
+}
+.loan-button:hover{
+    background-color: #9DC08B;
+}
+.loan-img-1{
+    margin-top: -9%;
+}
+.heading-4{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 5%;
+}
+
+.loan-4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20%;
+}
+
+.loan-5{
+    height: 300px;
+    width: 300px;
+    text-align: center;
+}
+.loan-6{
+    height: 300px;
+    width: 400px;
+    text-align: center;
+}
+
+.loan-7{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20%;
+    margin-top: 5%;
+}
+
+.loan-8{
+    height: 300px;
+    width:300px;
+}
+.loan-9{
+    height: 300px;
+    width: 300px;
+}
+.loan-heading-1{
+    text-align: center;
+}
+.loan-button-1{
+    background-color: #609966;
+    color: white;
+    padding: 20px 40px 20px 40px;
+    border: none;
+    font-size: 18px;
+    border-radius: 80px;
+    margin-left: 46%;
+    margin-top: 3%;
+}
+.loan-button-1:hover{
+    background-color: #9DC08B;
+}
+.loan-10{
+    text-align: center;
+    margin-top: 8%;
+    font-size: 40px;
+    font-weight: 800;
+}
+.loan-11{
+    display: flex;
+    flex-direction: row;
+    gap: 8%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3%;
+    text-align: center;
+}
+.loan-button-2{
+    background-color: #609966;
+    color: white;
+    padding: 20px 40px 20px 40px;
+    border: none;
+    font-size: 18px;
+    border-radius:  80px;
+    margin-left: 46%;
+    margin-top: 4%;
+}
+.loan-button-2:hover{
+    background-color: #9DC08B ;
+}
+.loan-12{
+    margin-top: 9%;
+    text-align: center;
+    background-color:#4D96FF;
+}
+.loan-button-3{
+    background-color: #609966;
+    color: white;
+    padding: 20px 40px 20px 40px;
+    border: none;
+    font-size: 18px;
+    border-radius:  80px;
+    margin-left: 2%;
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+.loan-button-3:hover{
+    background-color: #9DC08B;
+}
+
+
+/* content end */
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ /* /footer start */
+
+ .footer-d{
+    margin-top: 80px;
+}
+.icons{
+    margin-left: 45%;
+}
+.copyright{
+    /* margin-left: 37%; */
+    text-align: center;
+}
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: .5rem;
+    background: var(--light-yellow);
+    color: black;
+    font-weight: 500 ;
+    font-size: 1.7rem;
+    cursor: pointer;
+    
+    padding: .8rem 1rem;
+}
+.p-3{
+    padding: 1rem;
+}
+.mb-4{
+    margin-left: -7%;
+}
+/* footer end */

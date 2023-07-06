@@ -1,0 +1,220 @@
+ /* navbar */
+
+ #navbar {
+    width: 100%;
+    margin-top: 3%;
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: -39px;
+    margin-right: 17%;
+}
+
+#navbar li {
+    list-style: none;
+    padding: 3px 11px;
+    margin: 6px 10px;
+    font-size: 20px;
+}
+
+#navbar li a {
+    padding: 2px;
+    margin: 2px;
+    color: black;
+    text-decoration: none;
+}
+
+#navbar li a:hover {
+    color: yellow;
+    /* color: rgb(160, 226, 29); */
+    transition: all 0.37s ease-in;
+}
+
+.nav-img img {
+    height: 44px;
+    /* filter: invert(); */
+    margin: 2px;
+}
+
+/* deals on wheels name start*/
+
+.first {
+    color: #f9d806;
+    float: left;
+    margin-right: 10px;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+.middle {
+    color: red;
+    float: left;
+    margin-right: 10px;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+.last {
+    color: black;
+    float: left;
+    font-weight: bolder;
+    font-size: 2rem;
+
+}
+
+/* deals on wheels name start*/
+
+.heading {
+    margin-top: 15px;
+    margin-left: 159px;
+    font-size: 21px;
+}
+
+/* navbar end */
+
+/* audi car description  start*/
+.audi-description-heading {
+    font-size: 2rem;
+    font-weight: 600;
+    font-style: oblique;
+    margin-top: 3.5%;
+    margin-left: 8%;
+}
+
+/* audi car description  end*/
+
+/* audi description paragraph end */
+.audi-description-paragraph {
+    margin: 0% 8% 0% 8%;
+}
+
+.audi-description-paragraph-1 {
+    font-size: 20px;
+    line-height: 1.51;
+}
+
+.audi-description-paragraph-2 {
+    font-size: 20px;
+    line-height: 1.51;
+}
+
+/* audi description paragraph end*/
+
+/* audi car price start */
+.audi-car-price {
+    margin: 0% 8% 0% 8%;
+}
+
+.audi-car-price-heading {
+    font-size: 2rem;
+    font-weight: 600;
+    font-style: oblique;
+    margin-top: 4%;
+}
+
+.audi-car-price-paragraph {
+    font-size: 20px;
+    line-height: 1.51;
+}
+
+/* audi car price end */
+
+/* audi car price table start */
+.audi-car-price-table {
+    margin: 0% 8% 0% 8%;
+}
+
+/* audi car price table end */
+
+/* audi car model heading start */
+.audi-car-model {
+    margin: 0% 8% 0% 8%;
+
+}
+
+.audi-car-model-heading {
+    font-size: 2rem;
+    font-weight: 600;
+    font-style: oblique;
+    margin-bottom: 2%;
+}
+
+/* audi car model heading start */
+
+/* audi car model table ROW start */
+
+
+/* audi car model table row 1 start */
+
+.audi-car-model-1 {
+    display: flex;
+    flex-direction: column;
+    margin: 0% 9% 0% 9%;
+}
+
+.audi-car-model-row-1 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+}
+
+.audi-car-model-row-1:HOVER {
+    background-color: lightgray;
+}
+
+.audi-car-model-side-img-1 {
+    margin-left: 17%;
+}
+
+.audi-car-model-side-img-1:hover {
+    opacity: 0.3;
+}
+
+.audi-car-model-text {
+    margin: 57px 0px 0px 200px;
+}
+
+/* audi car MODEL table row 1 end */
+
+/* audi car MODEL table row 2 start */
+.audi-car-model-row-2{
+    margin-top: 2.5%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+}
+.audi-car-model-row-2:hover{
+    background-color: lightgray;
+}
+
+
+/* audi car MODEL table row 2 end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+
+.footer-d{
+    margin-top: 50px;
+}

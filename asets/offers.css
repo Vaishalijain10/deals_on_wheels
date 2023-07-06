@@ -1,0 +1,129 @@
+ /* navbar */
+
+ #navbar {
+    width: 100%;
+    margin-top: 3%;
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: -39px;
+    margin-right: 17%;
+}
+
+#navbar li {
+    list-style: none;
+    padding: 3px 11px;
+    margin: 6px 10px;
+    font-size: 20px;
+}
+
+#navbar li a {
+    padding: 2px;
+    margin: 2px;
+    color: black;
+    text-decoration: none;
+}
+
+#navbar li a:hover {
+    color: yellow;
+    /* color: rgb(160, 226, 29); */
+    transition: all 0.37s ease-in;
+}
+
+.nav-img img {
+    height: 44px;
+    /* filter: invert(); */
+    margin: 2px;
+}
+
+/* deals on wheels name start*/
+
+.first {
+    color: #f9d806;
+    float: left;
+    margin-right: 10px;
+    font-weight: bolder;
+}
+
+.middle {
+    color: red;
+    float: left;
+    margin-right: 10px;
+    font-weight: bolder;
+
+}
+
+.last {
+    color: black;
+    float: left;
+    font-weight: bolder;
+}
+
+/* deals on wheels name start*/
+
+.heading {
+    margin-top: 15px;
+    margin-left: 159px;
+    font-size: 21px;
+}
+
+/* navbar end */
+
+/* content start-audi */
+
+.testimonial-slider {
+  background-color: #5072a7;
+  padding: 3em 2em;
+}
+.testimonial-title {
+  color: #fff;
+}
+.testimonial-title h2 {
+  padding-left: 0.2em;
+}
+.card {
+  margin: 0 0.5em;
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+  border: none;
+  height: 100%;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: #fff;
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+  top: 60%;
+  transform: translateY(-50%);
+}
+
+@media (min-width: 576px) {
+  .carousel-item {
+    margin-right: 0;
+    flex: 0 0 50%;
+    display: block;
+  }
+  .carousel-inner {
+    display: flex;
+  }
+}
+@media (min-width: 768px) {
+  .carousel-inner {
+    padding: 1em;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    opacity: 1;
+    position: absolute;
+    left: 1em;
+    top: 90%;
+    transform: translateY(-50%);
+  }
+  .carousel-control-next {
+    left: 5em;
+  }
+}

@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wheels-Audi</title>
+
+
+  <link rel="stylesheet" href="../asets/audi_A4.css">
+
+  <link rel="stylesheet" href="../asets/test_drive.css">
+
+  <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E="
+  crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+
+</head>
+
+
+<body>
+
+
+
+  <!------------------------------------------------- Navbar start------------------------->
+
+ 
+  <header class="header">
+
+    <div id="menu-btn" class="fas fa-bars"></div>
+    <a href="#" class="logo"> <span class="span">Deals</span> <span class="span1">On</span> wheels </a>
+
+    <nav class="navbar" style="margin-right: 28%;">
+      <a href="../after-login/index.html">Home</a>
+      <a href="../after-login/index.html">Brands</a>
+      <a href="../after-login/contact.html">Contact</a>
+      <div class="dropdown"> <!---DROP DOWN EFFECT--->
+        <button class="dropbtn">More</button>
+        <div class="dropdown-content">
+          <a href="../loan.html">Loan</a>
+          <a href="../reviews.html">Reviews</a>
+          <a href="../after-login/policy.html">Policy</a>
+          <a href="../after-login/terms&condition.html">Terms and conditions</a>
+          <a href="../after-login/about_us.html">About Us</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- <div id="login-btn">
+      <a href="login.html"><button class="btn" style="font-size: 1.75rem;"> Login </button> </a>
+      <i class="far fa-user"></i>
+    </div> -->
+
+  </header>
+
+  <!------------------------------------------------- Navbar end------------------------->
+
+
+
+
+
+
+  <!-- CONTENT START -->
+  <div class="a4-container">
+    <div class="audi-a4-section-1">
+      <div>
+        <a href="../brands/c_kia.html"><button class="a4-back-button"> back! </button></a>
+      </div>
+      <div>
+        <h1 class="heading-a4-1">Kia EV6</h1>
+      </div>
+      <div style="display: flex; flex-direction: row; gap: 5%;">
+        <button type="button" class="main-btn-rect popup-btn a4-button-1" data-popup="popup-test-drive">Test Drive</button>
+        <button type="button" class="main-btn-rect popup-btn a4-button-1" data-popup="popup-buy">Buy</button>
+      </div>
+    </div>
+
+
+    
+    <!-----------------------------------------------popup start------------------------------------------------------------------------>
+
+    <div id="popup-test-drive" class="popup">
+      <div class="popup-content">
+        <div class="event-header">
+          <h6>Book for test-drive</h6>
+        </div>
+        <form id="send" class="send-form">
+          <div class="form-group">
+            <input type="text" placeholder="Enter model of car" id="model-name" name="model-name" required="required">
+            <label for="model-name">
+              <i class="fa fa-car"></i>
+            </label>
+          </div>
+          <div class="form-group">
+            <input type="text" placeholder="Enter colour of car" id="colour" name="car-colour" required="required">
+            <label for="car-colour">
+              <i class="fa fa-toolbox"></i>
+            </label>
+          </div>
+          <div class="form-group">
+            <input type="date" placeholder="Enter date" id="mail" name="date" required="required">
+            <label for="date">
+              <i class="fa fa-calendar"></i>
+            </label>
+          </div>
+          <div class="form-group">
+            <input type="time" placeholder="Enter time" id="mail" name="mail" required="required">
+            <label for="time">
+              <i class="fa fa-clock"></i>
+            </label>
+          </div>
+          <div class="form-group">
+            <textarea placeholder="Enter message" name="text" id="text"></textarea>
+            <label for="text" class="txt">
+              <i class="fa fa-commenting"></i>
+            </label>
+          </div>
+          <button type="submit" class="main-btn-rect" name="text" value="Send"> Send</button>
+        </form>
+        <span class="fade-out main-btn-circle">╳</span>
+      </div>
+    </div>
+
+    <div id="popup-buy" class="popup">
+      <div class="popup-content">
+        <div class="event-header">
+          <h6>buy a car</h6>
+          <h6>price-Rs.60.95 - 65.95 Lakh</h6>
+        </div>
+        <form id="send" class="send-form">
+          <div class="form-group">
+            <input type="text" placeholder="Enter model of car" id="model-name" name="model-name" required="required">
+            <label for="model-name">
+              <i class="fa fa-car"></i>
+            </label>
+          </div>
+          <div class="form-group">
+            <input type="text" placeholder="Enter colour of car" id="colour" name="car-colour" required="required">
+            <label for="car-colour">
+              <i class="fa fa-toolbox"></i>
+            </label>
+          </div>
+          <div class="form-group">
+            <input type="datetime-local" placeholder="Enter date and time" id="mail" name="date" required="required">
+            <label for="date-time">
+              <i class="fa fa-key"></i>
+            </label>
+          </div>
+          <div class="form-group">
+            <input type="text" placeholder="Enter address" id="address" name="address" required="required">
+            <label for="address">
+              <i class="fa fa-home"></i>
+            </label>
+          </div>
+          <div class="form-group">
+            <textarea placeholder="Enter message" name="text" id="text"></textarea>
+            <label for="text" class="txt">
+              <i class="fa fa-commenting"></i>
+            </label>
+          </div>
+          <button type="submit" class="main-btn-rect" name="text" value="Send"> Send</button>
+        </form>
+        <span class="fade-out main-btn-circle">╳</span>
+      </div>
+    </div>
+
+
+    <script>
+      $(document).ready(function () {
+        $('.popup-btn').click(function () {
+          var popupBlock = $('#' + $(this).data('popup'));
+          popupBlock.addClass('active')
+            .find('.fade-out').click(function () {
+              popupBlock.css('opacity', '0').find('.popup-content').css('margin-top', '350px');
+              setTimeout(function () {
+                $('.popup').removeClass('active');
+                popupBlock.css('opacity', '').find('.popup-content').css('margin-top', '');
+              }, 600);
+            });
+        });
+      });
+    </script>
+
+    <!--------------------------------------------------popup end------------------------------------------------------------- -->
+
+
+
+
+    <div class="a4-border-1">
+      <div class="heading-a4-2">
+        <h1>Exterior</h1>
+        <h1> Interior</h1>
+      </div>
+
+      <div class="a4-section-1">
+        <div class="a4-mini-section-1">
+          <div class="a4-subsection-1">
+            <div>
+              <img class="a4-img-1" src="../img/Kia EV6-1.jpg" alt="img1">
+            </div>
+            <div>
+              <img class="a4-img-1" src="../img/Kia EV6-2.webp" alt="img2">
+            </div>
+          </div>
+          <div class="a4-subsection-1">
+            <div>
+              <img class="a4-img-1" src="../img/Kia EV6-3.webp" alt="img3">
+            </div>
+            <div>
+              <img class="a4-img-1" src="../img/Kia EV6-4.webp" alt="img4">
+            </div>
+          </div>
+        </div>
+
+        <div class="a4-mini-section-1">
+          <div class="a4-subsection-1">
+            <div>
+              <img class="a4-img-1" src="../img/Kia EV6 interior-1.webp" alt="">
+            </div>
+            <div>
+              <img class="a4-img-1" src="../img/Kia EV6 interior-2.webp" alt="">
+            </div>
+          </div>
+
+          <div class="a4-subsection-1">
+            <div>
+              <img class="a4-img-1" src="../img/Kia EV6 interior-3.webp"alt="">
+            </div>
+            <div>
+              <img class="a4-img-1" src="../img/Kia EV6 interior-4.webp" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <h1 class="heading-audi-a4">Key Specs of Audi A4</h1>
+
+    <div class="audi-a4-section-3">
+      <div>
+        <img class="engine-img" src="../img/engine-icon.webp" alt="engine">
+        <h5 class="point-2">Engine</h5>
+        <h5 class="point-3">1998 cc</h5>
+      </div>
+
+      <div>
+        <img class="engine-img" src="../img/bhp.jpg" alt="engine">
+        <h5 class="point-2">BHP</h5>
+        <h5 class="point-3">187.74 Bhp</h5>
+      </div>
+
+      <div>
+        <img class="engine-img" src="../img/transmission.png" alt="engine">
+        <h5 class="point-2">Transmission</h5>
+        <h5 class="point-3">Automatic</h5>
+      </div>
+
+      <div>
+        <img class="engine-img" src="../img/fuel.png" alt="engine">
+        <h5 class="point-2">Fuel</h5>
+        <h5 class="point-3">Petrol</h5>
+      </div>
+
+      <div>
+        <img class="engine-img" src="../img/boot space.webp" alt="engine">
+        <h5 class="point-2">Boot Space</h5>
+        <h5 class="point-3">460 L (Liters)</h5>
+      </div>
+    </div>
+
+    <h1 class="heading-audi-a4-1">Key features of Audi-A4</h1>
+    <div class="a4-features-1">
+      <div>
+        <ol type="I">
+          <li class="point-1">Power Steering</li>
+          <li class="point-1">Anti Lock Braking System</li>
+          <li class="point-1">Driver Airbag</li>
+          <li class="point-1">Fog Lights - Front</li>
+          <li class="point-1">Multi-function Steering Wheel</li>
+        </ol>
+      </div>
+      <div>
+        <ol start="6" type="I">
+          <li class="point-1">Power Windows Front</li>
+          <li class="point-1">Air Conditioner</li>
+          <li class="point-1">Passenger Airbag</li>
+          <li class="point-1">Alloy Wheels</li>
+        </ol>
+      </div>
+    </div>
+  </div>
+  <!--Content end  -->
+
+
+
+  <!----------------------------------------------------Footer start------------------------------------------------------- -->
+  <div>
+    <footer class="text-center text-white footer-d" style="background-color: white;">
+      <!-- Grid container -->
+      <div class="container pt-4">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          <!-- Facebook -->
+          <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+            data-mdb-ripple-color="dark"><img src="../img/fb.png" height="30px" width="30px" alt="twitter">
+          </a>
+
+          <!-- Twitter -->
+          <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+            data-mdb-ripple-color="dark"><img src="../img/twitter.png" height="30px" width="30px" alt="twitter">
+          </a>
+
+          <!-- Email -->
+          <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+            data-mdb-ripple-color="dark"><img src="../img/gmail1-removebg-preview (4).png" height="30px" width="30px"  alt="email">
+            </i></a>
+
+          <!-- Whatsapp -->
+          <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#" role="button" data-mdb-ripple-color="dark">
+            <img src="../img/whatsapp.png" height="30px" width="30px" alt="Linkedin">
+            </i></a>
+
+        </section>
+        <!-- Section: Social media -->
+      </div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2023 Copyright:
+        <a class="text-dark"> Vaishalijain1008.com</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+  </div>
+  <!----------------------------------------------------Footer END------------------------------------------------------- -->
+
+
+
+</body>
+
+</html>

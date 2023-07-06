@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Deals On Wheels-Reviews</title>
+</head>
+
+<link rel="stylesheet" href="./asets/reviews.css">
+
+<style>
+
+
+</style>
+
+<body>
+
+  <!------------------------------------------nav bar start-------------------------------------------- -->
+
+  <header class="header">
+
+    <div id="menu-btn" class="fas fa-bars"></div>
+    <a href="#" class="logo"> <span class="span">Deals</span> <span class="span1">On</span> wheels </a>
+
+    <nav class="navbar" style="margin-right: 28%;">
+      <a href="../after-login/index.html">Home</a>
+      <a href="../after-login/index.html">Brands</a>
+      <a href="../after-login/contact.html">Contact</a>
+      <div class="dropdown"> <!---DROP DOWN EFFECT--->
+        <button class="dropbtn">More</button>
+        <div class="dropdown-content">
+          <a href="../loan.html">Loan</a>
+          <a href="../reviews.html">Reviews</a>
+          <a href="../after-login/policy.html">Policy</a>
+          <a href="../after-login/terms&condition.html">Terms and conditions</a>
+          <a href="../after-login/about_us.html">About Us</a>
+        </div>
+      </div>
+    </nav>
+
+  
+
+  </header>
+
+  <!-- --------------------------------------------nav bar End-------------------------------------------- -->
+
+  <h1 class="reviews-heading-1">Reviews</h1>
+
+
+
+
+
+
+
+  <!-- --------------------------------------------Javascript start-------------------------------------------- -->
+  <script>
+    // const h1 = document.createElement("h1");
+    // h1.textContent = "Reviews";
+    // document.body.appendChild(h1);
+
+    const reviewsConatainer = document.createElement("div");
+    reviewsConatainer.id = "reviews-container";
+    document.body.append(reviewsConatainer);
+
+    const reviews = [
+      {
+        image: "./img/happy2.jpeg",
+        alt: "a picture of Charly Schmidt",
+        text:
+          "My dream of purchasing my dream car came true with the help of Deals On Wheels! The loan process is very simple and it was disbursed in a very short time with the help of Mr. Prashanth. He ensured I got the loan amount on time which in turn helped me get the car delivered on time.",
+        name: " Aditi"
+      },
+      {
+        image: "./img/about-us-car-sold-img2.jpg",
+        alt: "a picture of Kimberley Nicholls",
+        text:
+          " I'd like to thank Ms. Nidhi Sarin for all her support to make my CARS24 buying experience worthwhile. She was really polite in her communication and made a genuine effort to put across the company's point of view as well as understand the customer's pain point and find a way to solve it.",
+        name: "Amisha"
+      },
+      {
+        image: "./img/happy customer -2.webp",
+        alt: "a picture of Elwood Hook",
+        text: "I would like to thank team CARS24 for their impeccable services. A special note of thanks to Krishan Kumar, Anuj Kumar Sharma, Arun Kumar, Honey Singh, and Ravi Bisht for their prompt and professional support.",
+        name: "Shruti"
+      },
+      {
+        image: "./img/happy.png",
+        alt: "a picture of Fleur Hurst",
+        text: " Delighted to receive my car, the Maruti Suzuki Swift. Great service by CARS24. Would recommend any future buyers looking to buy used cars.",
+        name: "Harsh Pandey"
+      },
+      {
+        image: "./img/register-img.jpg",
+        alt: "a picture of Elwood Hook",
+        text:
+          "I am delighted with the post-sales service from CARS24. I purchased my car from them five months ago and recently identified a hard steering issue. So, I registered a complaint and within two days the problem was identified and fixed as well. Superb work by the team!",
+        name: "Sachin Tripathi"
+      }
+    ];
+
+    function populatReviews() {
+      reviews.forEach((review) => {
+        const card = document.createElement("div");
+        card.classList.add("card");
+
+        card.addEventListener("mouseover", showCard);
+        card.addEventListener("mouseleave", blurCard);
+
+        const imgContainer = document.createElement("div");
+        imgContainer.classList.add("img-container");
+
+        const img = document.createElement("img");
+        img.setAttribute("src", review.image);
+        img.setAttribute("alt", review.alt);
+        imgContainer.append(img);
+
+        const revText = document.createElement("p");
+        revText.innerText = review.text;
+
+        const nameContainer = document.createElement("div");
+        nameContainer.classList.add("name-container");
+        nameContainer.textContent = review.name;
+
+        card.append(imgContainer, revText, nameContainer);
+        reviewsConatainer.append(card);
+      });
+    }
+    populatReviews();
+
+    function showCard() {
+      this.classList.add("active");
+    }
+
+    function blurCard() {
+      this.classList.remove("active");
+    }
+  </script>
+
+  <!-- --------------------------------------------Javascript end-------------------------------------------- -->
+
+
+</body>
+
+</html>

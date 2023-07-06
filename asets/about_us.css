@@ -1,0 +1,195 @@
+/* navbar start */
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: .5rem;
+    background: var(--light-yellow);
+    color: black;
+    font-weight: 500 ;
+    font-size: 1.7rem;
+    cursor: pointer;
+    padding: .8rem 3rem;
+}
+
+.btn:hover{              /*HOVER EFFECT*/
+background: yellow;
+}
+
+.header{
+    margin-top: -.5%;
+    margin-left: -2%;
+    margin-right: -2%;
+    padding-top: .75%;
+    padding-bottom: 1%;
+    display: flex;
+    flex-direction: row;
+    gap: 25.65%;
+    box-shadow: 0px 3px 10px gray;  
+
+}
+
+ .logo{
+ text-decoration: none;
+font-size: 1.7rem;
+color: black;
+font-weight: bolder !important;
+margin-left: 7%;
+margin-top: .75%;
+
+}
+
+.header span{
+    text-decoration: none; 
+    color: #f9d806;
+}
+.header .span1{
+    text-decoration: none;
+    color:red;
+}
+
+ .navbar a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin: 0 1rem;
+    color: black;
+
+}
+/* not wroking most probabally */
+
+ .navbar a:hover{ 
+    /* background: yellow; */
+    color:var(--yellow);
+}
+
+.btn{
+    margin-top: 0% ;
+    font-size: 20.3px;
+}
+
+ #login-btn i{
+    font-size: 1.5rem !important;
+    color: var(--light-color);
+    cursor: pointer;
+    display: none;
+}
+    #menu-btn{
+        font-size: 1.5rem;
+        color:  var(--light-color);
+        cursor: pointer;
+        display: none;
+    }
+
+/*DROP DOWN*/
+
+.dropbtn {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    font-size: 1.2rem;
+    border: none;
+    margin-right: 20% !important;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;   
+    margin-right: 2rem;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: whitesmoke;
+}
+
+/* navbar end */
+
+/* content start */
+
+.about-us-heading{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    font-style: oblique;
+    margin-bottom: -2%; 
+    margin-top: 4%; 
+}
+.about-us-1{
+    margin-left: 4%;
+    margin-right: 4%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: -1%;
+    margin-top: 6%;
+    line-height: 1.5;
+    font-size: 1.5rem;
+}
+.about-us-3{
+    font-size: 3rem;
+    font-weight: 800;
+    margin-left: 5%;
+    margin-top: 8%;
+}
+.about-us-2{
+    display: flex;
+    flex-direction: row;
+    gap: 2.85%;
+    text-align: center;
+    padding-left:0% ;
+    padding-right: 5%;
+    padding-top: 4%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.about-us-medal{
+    height: 260px;
+    width: 315px;
+}
+
+
+/* content end */
+
+
+
+/* /footer */
+
+.footer-d{
+    margin-top: 80px;
+    text-align: center;
+}
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: .5rem;
+    background: var(--light-yellow);
+    color: black;
+    font-weight: 500 ;
+    font-size: 1.7rem;
+    cursor: pointer;
+    
+    padding: .8rem 1rem;
+}
+.p-3{
+    padding: 1rem;
+}
